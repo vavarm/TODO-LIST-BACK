@@ -1,5 +1,6 @@
 # TODO-LIST-BACK [WIP]
-The backend of a fullstack project called TODO-LIST. Created following the MEVN stack.
+The backend of a fullstack project called TODO-LIST  
+Created following the MEVN stack
 
 ## Front-End
 You can find a front-end application using this back-end in the following repo: https://github.com/vavarm/TODO-LIST-FRONT/
@@ -21,8 +22,8 @@ You can find a front-end application using this back-end in the following repo: 
 OR
 - Postman https://www.postman.com/
 ### Methods
-GET on /
-GET, POST on /api/todos
+GET on /  
+GET, POST on /api/todos  
 GET, PUT, DELETE on /api/todos/:id
 ### Body format
 The body must be sent as FORM URL Encoded
