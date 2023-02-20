@@ -11,11 +11,6 @@ router.get("/:id", todosController.getTodo)
 // POST /todos
 router.post("/", todosController.addTodo)
 
-// GET /todos/:id
-router.get("/:id", (req, res) => {
-  // code pour récupérer un todo spécifique
-})
-
 // PUT /todos/:id
 router.put("/:id", todosController.updateTodo)
 
