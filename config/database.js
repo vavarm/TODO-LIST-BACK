@@ -2,8 +2,8 @@
 const mongoose = require("mongoose")
 
 // Set up default mongoose connection
-const mongoDB = "mongodb://127.0.0.1:27017/todo-list"
-mongoose.connect(mongoDB, {
+const MONGO_URL = "mongodb://127.0.0.1:27017/todo-list"
+mongoose.connect(MONGO_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
